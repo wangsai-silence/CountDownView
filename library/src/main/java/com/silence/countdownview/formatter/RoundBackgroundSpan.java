@@ -57,12 +57,16 @@ public class RoundBackgroundSpan extends ReplacementSpan {
             if (numberSize == 0)
                 measureNumberSize(paint);
 
-            return numberSize + paddings[0] + paddings[2] + paddings[4];
+            return (numberSize + paddings[0] + paddings[2] + paddings[4]) * (end - start);
         } else {
             return paint.measureText(text, start, end) + paddings[0] + paddings[2] + paddings[4];
         }
     }
 
+    /**
+     * 几个数字对于宽度的默认要求是不一样的，统一采取最大宽度作为所有数字的宽度
+     * @param paint
+     */
     private void measureNumberSize(Paint paint) {
         for (int i = 0; i < 10; i++) {
             float size = paint.measureText(String.valueOf(i));
@@ -82,7 +86,10 @@ public class RoundBackgroundSpan extends ReplacementSpan {
 
     @Override
     public void draw(Canvas canvas, CharSequence text, int start, int end, float x, int top, int y, int bottom, Paint paint) {
-        RectF rect = new RectF(x, top, x + measureText(paint, text, start, end) - paddings[4], bottom + paddings[1] + paddings[3]);
+
+        RectF rect = new RectF(x, top, x + measureText(paint, text, start, end) - paddings[4],
+                bottom + paddings[1] + paddings[3]);
+
         //查看裁剪区域，部分手机上发现，此处的canvas是经过裁剪了的，导致圆角矩形不能完全显示
         RectF clipRect = new RectF(canvas.getClipBounds());
         if (clipRect != null && !clipRect.contains(rect)) {

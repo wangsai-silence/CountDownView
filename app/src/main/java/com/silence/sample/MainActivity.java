@@ -26,10 +26,7 @@ public class MainActivity extends AppCompatActivity {
         timer1.setCountdownDeadineTime(System.currentTimeMillis() + 100000)
                 .start();
 
-        SpannableTimeFormatter formatter = new SpannableTimeFormatter(new DefaultDateFormatter());
-        formatter.setNumColor(Color.WHITE, Color.BLACK);
-        formatter.setSplitColor(Color.BLACK, Color.TRANSPARENT);
-        timer2.setDataFormater(formatter)
+        timer2.setDataFormater(new SpannableTimeFormatter.Builder().build())
                 .setCountdownDeadineTime(System.currentTimeMillis() + 1000 * 60 * 60 * 12)
                 .start();
     }
