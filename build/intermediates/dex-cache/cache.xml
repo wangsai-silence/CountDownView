@@ -1,2 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/wangsai/android_pro/CountDownView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/home/wangsai/android_pro/CountDownView/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_b77814781fa742b382b0292dfc83430da61c7a09.jar" />
+    </item>
+    <item
+        jar="/home/wangsai/android_pro/CountDownView/app/build/intermediates/exploded-aar/CountDownView/library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b5bff2ede9ee15943ee147beb84b1251fe72fdb5">
+        <dex dex="/home/wangsai/android_pro/CountDownView/app/build/intermediates/pre-dexed/debug/CountDownView-library-unspecified_53ec948afd1c89f3aaa6644164c98bc38f842475.jar" />
+    </item>
+    <item
+        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/home/wangsai/android_pro/CountDownView/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_a916515ba5d32732f7f7acbae316e88e5dce42d7.jar" />
+    </item>
+    <item
+        jar="/home/wangsai/android_pro/CountDownView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/home/wangsai/android_pro/CountDownView/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_f5d045b878cf30b3065b2751915fc7c5638613ae.jar" />
+    </item>
+    <item
+        jar="/home/wangsai/android_pro/CountDownView/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/home/wangsai/android_pro/CountDownView/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_cbef798295139cd1b5f9c2a65a5ac3416c7fd162.jar" />
+    </item>
+    <item
+        jar="/home/wangsai/android_pro/CountDownView/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/home/wangsai/android_pro/CountDownView/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_83dd3097d755c075a2cac370fcba39a049c3080c.jar" />
+    </item>
+    <item
+        jar="/home/wangsai/android_pro/CountDownView/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/home/wangsai/android_pro/CountDownView/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_c793c34081aa0eb2b9f871c14c28ecf663b0171a.jar" />
+    </item>
+
+</items>
